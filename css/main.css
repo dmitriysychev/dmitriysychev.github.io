@@ -2,6 +2,14 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+header {
+    position: relative;
+    height: 800px;
+    min-height: 500px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+ }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
