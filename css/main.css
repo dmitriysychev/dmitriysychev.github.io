@@ -23,8 +23,6 @@ nav ul li, footer ul li {
     outline: none;
     margin-right: 20px;
 }
-nav li a:active { background-color: transparent !important; }
-nav li.current a { color: #F06000; }
 
 a {
     text-decoration: none;
