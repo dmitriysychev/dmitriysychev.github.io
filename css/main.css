@@ -54,5 +54,13 @@ ul.posts li {
     list-style: none;
 }
 
-
+#about p {
+   line-height: 30px;
+}
+#about .profile-pic {
+   position: relative;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+}
 
