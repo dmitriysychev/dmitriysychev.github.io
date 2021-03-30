@@ -2,6 +2,7 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+/*
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -9,13 +10,13 @@ nav ul, footer ul {
     list-style: none;
     font-weight: bold;
     text-transform: uppercase;
+    position: sticky;
 }
 nav ul li, footer ul li {
     display: inline;
     border: none;
     outline: none;
     margin-right: 20px;
-    position: absolute;
 }
 
 a {
@@ -24,6 +25,21 @@ a {
 }
 a:hover {
     color: #F06000;
+}*/
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
 }
 h1 {
     font-size: 3em;
